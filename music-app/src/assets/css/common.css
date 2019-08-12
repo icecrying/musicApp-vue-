@@ -1,0 +1,40 @@
+/* 图片加载时 */
+img[lazy=loading]{
+    transform: scale(.3);
+}
+/* 页面通用 */
+.page{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #f3f4f9;
+}
+/* scroll距离顶部380px */
+.mgtop380-wrap{
+    width: 100%;
+    height: calc(100vh - 490px);
+    background-color: #ffffff;
+    overflow: hidden;
+}
+/* scroll距离顶部90px */
+.mgtop90-wrap{
+    width: 100%;
+    height: calc(100vh - 200px);
+    overflow: hidden;
+    margin-top:90px;
+    background-color: #ffffff;
+}
+/* 设置轮播图分页器的样式 */
+.swiper-pagination-bullet{
+    display: inline-block;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background-color: red !important;
+}
+.swiper-pagination-bullet-active{
+    background: yellow !important;
+}
